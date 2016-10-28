@@ -4,7 +4,7 @@ const bot = new Bottr.Bot();
 bot.use(new BottrApp());
 
 bot.on('message_received', function(message, session) {
-    session.send('Hello Worffld');
+    session.send('Hello Worffffld');
 });
 
 bot.listen();
